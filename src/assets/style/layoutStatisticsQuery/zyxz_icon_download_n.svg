@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #333;
+      }
+    </style>
+  </defs>
+  <g id="zyxz_icon_download_n" transform="translate(-884 -557.999)">
+    <rect id="矩形_2522" data-name="矩形 2522" class="cls-1" width="16" height="16" transform="translate(884 557.999)"/>
+    <path id="路径_333" data-name="路径 333" class="cls-2" d="M708.658,430.172v9.153h9.153v-9.153Zm6.565,6.847h-1.718l-.518-1.012-.635,1.012H711.2L712.47,435l-1.271-2.541h1.718l.518,1.012.635-1.012h1.153l-1.271,2.024Zm9.383-9.126.027,14.824-13.665,0v-2.847h1.153v1.718l11.383,0-.027-13.695-11.383,0v1.718h-1.153v-2.871l13.665,0Zm-6.23,5.221,3.947,0v1.5l-3.947,0Zm0-2.943,3.947,0v1.949l-3.947,0Zm0,5.718,0-.209,3.947,0v3.644l-3.947,0Z" transform="translate(175.352 131.271)"/>
+  </g>
+</svg>

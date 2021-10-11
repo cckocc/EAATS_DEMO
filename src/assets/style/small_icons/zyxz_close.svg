@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="zyxz_close" transform="translate(0.113 -0.367)">
+    <path id="路径_305" data-name="路径 305" class="cls-1" d="M0,0H16V16H0Z" transform="translate(-0.113 0.367)"/>
+    <path id="路径_306" data-name="路径 306" class="cls-2" d="M18.842,14.949v1.577h-15V14.949ZM14.8,3.505v7.808l4.044-3.9ZM10.842,9.439v1.577h-7V9.439Zm0-5.521V5.5h-7V3.918Z" transform="translate(-3.455 -1.639)"/>
+  </g>
+</svg>

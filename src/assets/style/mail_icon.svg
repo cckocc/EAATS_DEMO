@@ -1,0 +1,20 @@
+<svg id="mail_icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #0050b3;
+      }
+
+      .cls-3 {
+        fill: #22a2ff;
+      }
+    </style>
+  </defs>
+  <path id="路径_574" data-name="路径 574" class="cls-1" d="M0,0H16V16H0Z"/>
+  <path id="路径_579" data-name="路径 579" class="cls-2" d="M1.455,4.818v-1.1A.727.727,0,0,1,2.176,3h13.1A.722.722,0,0,1,16,3.722V15.369a.727.727,0,0,1-.721.722H2.176a.722.722,0,0,1-.721-.722v-.732H14.545V6.127L8.727,11.364Z" transform="translate(0 -2)"/>
+  <path id="路径_580" data-name="路径 580" class="cls-3" d="M0,8.091H3.636V9.545H0Zm0,3.636H5.818v1.455H0Z" transform="translate(0 -2)"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+  </defs>
+  <g id="jklxgl_icon_add_n" transform="translate(0 0.001)">
+    <g id="组_472" data-name="组 472" class="cls-2" transform="translate(0)">
+      <path id="路径_177" data-name="路径 177" d="M818.88,528.66a8,8,0,1,0,8,8,8,8,0,0,0-8-8Zm5.393,8.378a.4.4,0,0,1-.4.4h-4.207v4.207a.4.4,0,0,1-.4.4H818.5a.4.4,0,0,1-.4-.4v-4.207h-4.207a.4.4,0,0,1-.4-.4v-.755a.4.4,0,0,1,.4-.4H818.1v-4.207a.4.4,0,0,1,.4-.4h.755a.4.4,0,0,1,.4.4v4.207h4.207a.4.4,0,0,1,.4.4v.755Zm0,0" transform="translate(-810.88 -528.661)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" viewBox="0 0 17 17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #2c76d1;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="矩形_200" data-name="矩形 200" class="cls-1" width="11.063" height="7.585"/>
+    </clipPath>
+  </defs>
+  <g id="Checkbox_s" transform="translate(-518 -921)">
+    <rect id="矩形_324" data-name="矩形 324" class="cls-2" width="17" height="17" transform="translate(518 921)"/>
+    <g id="组_466" data-name="组 466" transform="translate(-267 317.316)">
+      <g id="组_370" data-name="组 370" transform="translate(788 609.441)">
+        <g id="组_369" data-name="组 369" class="cls-3" transform="translate(0 0)">
+          <path id="路径_152" data-name="路径 152" class="cls-1" d="M792.364,617.237a.868.868,0,0,1-.616-.255l-3.494-3.494a.871.871,0,0,1,1.231-1.231l2.879,2.879,5.208-5.208a.871.871,0,1,1,1.232,1.231l-5.824,5.824a.868.868,0,0,1-.616.255Zm0,0" transform="translate(-787.999 -609.668)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

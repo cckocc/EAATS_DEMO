@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #f6f7fb;
+      }
+
+      .cls-3 {
+        fill: #728eb1;
+      }
+    </style>
+  </defs>
+  <g id="zyxz_icon_open_n" transform="translate(-644 -522)">
+    <rect id="矩形_2513" data-name="矩形 2513" class="cls-1" width="24" height="24" transform="translate(644 522)"/>
+    <circle id="椭圆_30" data-name="椭圆 30" class="cls-2" cx="12" cy="12" r="12" transform="translate(644 522)"/>
+    <path id="路径_310" data-name="路径 310" class="cls-3" d="M12,17,7,10H17Z" transform="translate(644 521)"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg id="zyxz_checkbox" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="路径_305" data-name="路径 305" class="cls-1" d="M0,0H16V16H0Z"/>
+  <path id="路径_393" data-name="路径 393" class="cls-2" d="M6,6V2.8A.8.8,0,0,1,6.8,2H17.2a.8.8,0,0,1,.8.8V13.2a.8.8,0,0,1-.8.8H14v3.194a.8.8,0,0,1-.806.806H2.806A.8.8,0,0,1,2,17.194L2,6.806A.8.8,0,0,1,2.808,6ZM7.6,6h5.594A.8.8,0,0,1,14,6.806V12.4h2.4V3.6H7.6Zm-.4,8.8,4.525-4.526L10.6,9.143,7.2,12.538l-1.7-1.7L4.373,11.971Z" transform="translate(-2 -2)"/>
+</svg>

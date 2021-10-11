@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #edf4ff;
+      }
+
+      .cls-3 {
+        fill: #22a2ff;
+      }
+
+      .cls-4 {
+        fill: #0050b3;
+      }
+    </style>
+  </defs>
+  <g id="zyxz_icon_xxs" transform="translate(0.177)">
+    <rect id="矩形_2510" data-name="矩形 2510" class="cls-1" width="48" height="48" transform="translate(-0.177)"/>
+    <circle id="椭圆_29" data-name="椭圆 29" class="cls-2" cx="23" cy="23" r="23" transform="translate(0.823 1)"/>
+    <g id="建筑商" transform="translate(12 14)">
+      <path id="路径_272" data-name="路径 272" class="cls-3" d="M570.957,17.658l3.034.755,2.875-.755c-.417-5.956-2.294-15.247-2.619-15.3L575.723,0H572.1l1.506,2.358C572.92,2.75,570.957,17.658,570.957,17.658Z" transform="translate(-561.735 0)"/>
+      <path id="路径_273" data-name="路径 273" class="cls-4" d="M3.828,71.693.515,73.33a.936.936,0,0,0-.513.9V89.19a.951.951,0,0,0,.951.936h22.44a.951.951,0,0,0,.951-.936V74.228a.936.936,0,0,0-.513-.9l-3.282-1.751a.951.951,0,0,0-1.268.37l-6.27,14.9a.951.951,0,0,1-1.637,0L5.1,72.062a.951.951,0,0,0-1.268-.37ZM17.6,80.634h3.69a1.23,1.23,0,0,1,1.253.988,1.162,1.162,0,0,1-1,1.275h-3.69a1.23,1.23,0,0,1-1.253-.981A1.162,1.162,0,0,1,17.6,80.634Z" transform="translate(0 -70.07)"/>
+    </g>
+  </g>
+</svg>

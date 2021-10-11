@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #214574;
+      }
+    </style>
+  </defs>
+  <g id="zyxz_icon_information_s" transform="translate(-509 -380)">
+    <rect id="矩形_2580" data-name="矩形 2580" class="cls-1" width="16" height="16" transform="translate(509 380)"/>
+    <g id="information-fill_1_" data-name="information-fill (1)" transform="translate(507 378)">
+      <path id="路径_328" data-name="路径 328" class="cls-1" d="M0,0H16V16H0Z" transform="translate(2 2)"/>
+      <path id="路径_329" data-name="路径 329" class="cls-2" d="M10,18a8,8,0,1,1,8-8A8,8,0,0,1,10,18ZM9.2,9.2V14h1.6V9.2ZM9.2,6V7.6h1.6V6Z"/>
+    </g>
+  </g>
+</svg>

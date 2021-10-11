@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #0050b3;
+      }
+    </style>
+  </defs>
+  <g id="calendar_icon_calendar" transform="translate(0 -1)">
+    <path id="路径_479" data-name="路径 479" class="cls-1" d="M0,0H16V16H0Z" transform="translate(0 1)"/>
+    <path id="路径_514" data-name="路径 514" class="cls-2" d="M7.6,1V2.6h4.8V1H14V2.6h3.2a.8.8,0,0,1,.8.8V16.2a.8.8,0,0,1-.8.8H2.8a.8.8,0,0,1-.8-.8V3.4a.8.8,0,0,1,.8-.8H6V1Zm8.8,5.6H3.6v8.8H16.4ZM12.429,8.309,13.56,9.44,9.6,13.4,6.771,10.571,7.9,9.44l1.7,1.7L12.43,8.309Z" transform="translate(-2)"/>
+  </g>
+</svg>

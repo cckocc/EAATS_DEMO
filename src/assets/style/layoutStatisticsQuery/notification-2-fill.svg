@@ -1,0 +1,15 @@
+<svg id="notification-2-fill" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="路径_270" data-name="路径 270" class="cls-1" d="M0,0H24V24H0Z"/>
+  <path id="路径_271" data-name="路径 271" class="cls-2" d="M22,20H2V18H3V11.031a9,9,0,1,1,18,0V18h1ZM9.5,21h5a2.5,2.5,0,1,1-5,0Z"/>
+</svg>

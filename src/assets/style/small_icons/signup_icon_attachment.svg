@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16.001" viewBox="0 0 16 16.001">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #2c76d1;
+      }
+    </style>
+  </defs>
+  <g id="signup_icon_attachment" transform="translate(-1 -0.999)">
+    <path id="路径_385" data-name="路径 385" class="cls-1" d="M0,0H16V16H0Z" transform="translate(1 1)"/>
+    <path id="路径_386" data-name="路径 386" class="cls-2" d="M12.9,6.838,8.158,11.584A.839.839,0,1,0,9.345,12.77l4.746-4.745a2.517,2.517,0,1,0-3.56-3.56L5.785,9.211a4.195,4.195,0,1,0,5.933,5.932L16.463,10.4l1.186,1.186L12.9,16.33A5.873,5.873,0,0,1,4.6,8.024L9.345,3.279a4.194,4.194,0,1,1,5.932,5.932l-4.746,4.747A2.517,2.517,0,1,1,6.971,10.4l4.746-4.746L12.9,6.838Z" transform="translate(-1.878 -1.051)"/>
+  </g>
+</svg>

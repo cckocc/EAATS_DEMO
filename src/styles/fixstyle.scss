@@ -1,0 +1,3439 @@
+.secondblock {
+
+  img {
+    border: none;
+  }
+
+  .BodyTable {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-width: 0;
+    position: relative;
+    margin-top: -1px;
+  }
+
+  .ColorTable {
+    width: 50%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-width: 1;
+    position: relative;
+    margin-top: -1px;
+  }
+
+  .Category {
+    margin-left: 10px;
+    padding-left: 10px;
+  }
+
+  ul.Category li {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+  }
+
+  .Center {
+    text-align: center;
+  }
+
+  .CustomField {
+    background-color: yellow;
+  }
+
+  .Disclaimer {
+    font-size: x-small;
+    color: black;
+    font-family: Verdana;
+    background-color: white;
+  }
+
+  .DTTable {
+    table-layout: auto;
+    border-width: 1px;
+    border-color: blue;
+    border: double;
+  }
+
+
+  .IsDepr {
+    background-color: ffe4c4 /* Bisque */
+  ;
+  }
+
+  /*
+  TH.Enm {
+    background-color: #0f0263;
+    color: white;
+    font-weight: bold;
+    font-size: x-small;
+  }
+  */
+
+  .EnmGroup {
+
+  }
+
+  .EnmOne {
+    font-weight: normal;
+    font-size: x-small;
+    color: black;
+    /*	font-family: Verdana; */
+    text-align: left;
+    vertical-align: top;
+    background-color: gainsboro;
+  }
+
+  .EnmOneDepr {
+    font-weight: normal;
+    font-size: x-small;
+    color: black;
+    text-align: left;
+    vertical-align: top;
+    background-color: ffe4c4;
+  }
+
+  .EnmTwoDepr {
+    font-weight: normal;
+    font-size: x-small;
+    color: black;
+    text-align: left;
+    vertical-align: top;
+    background-color: ffe4c4;
+  }
+
+  .EnmOneCustomEnum {
+    font-weight: normal;
+    font-size: x-small;
+    color: black;
+    /*	font-family: Verdana; */
+    text-align: left;
+    vertical-align: top;
+    background-color: yellow;
+  }
+
+  .EnmTwo {
+    font-weight: normal;
+    font-size: x-small;
+    color: black;
+    /*	font-family: Verdana; */
+    text-align: left;
+    vertical-align: top;
+    background-color: white;
+  }
+
+  .EnmTwoCustomEnum {
+    font-weight: normal;
+    font-size: x-small;
+    color: black;
+    /*	font-family: Verdana; */
+    text-align: left;
+    vertical-align: top;
+    background-color: yellow;
+  }
+
+  TD.Odd {
+    word-wrap: break-word;
+    font-size: x-small;
+    color: black;
+    background-color: white;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+  }
+
+  TD.Even {
+    word-wrap: break-word;
+    font-weight: normal;
+    font-size: x-small;
+    color: black;
+    background-color: gainsboro;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+  }
+
+  TH.Even {
+    text-align: center;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+  }
+
+  .Fld {
+    vertical-align: top;
+
+  }
+
+
+  .FldCustomCompEven {
+    vertical-align: top;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+    background-color: yellow;
+  }
+
+
+  .FldCustomCompOdd {
+    vertical-align: top;
+    font-weight: normal;
+    font-size: x-small;
+    color: black;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: yellow;
+  }
+
+
+  .FldCustomField {
+    vertical-align: top;
+
+  }
+
+
+  .fldCustomMessageEven {
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+    background-color: yellow;
+  }
+
+
+  .FldCustomMessageOdd {
+    vertical-align: top;
+    font-weight: normal;
+    font-size: x-small;
+    color: black;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: yellow;
+  }
+
+
+  .FldDat {
+    vertical-align: top;
+
+  }
+
+
+  .FldDatCustomField {
+    vertical-align: top;
+
+  }
+
+
+  .FldDatCustomFieldEven {
+    vertical-align: top;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+    background-color: yellow;
+  }
+
+
+  .FldDatCustomFieldOdd {
+    vertical-align: top;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+    background-color: yellow;
+  }
+
+
+  .FldDatEven {
+    vertical-align: top;
+    background-color: gainsboro;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+  }
+
+  .FldDatIsDeprEven {
+    vertical-align: top;
+    background-color: ffe4c4 /* Bisque */
+  ;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+  }
+
+  .FldDatHdr {
+    vertical-align: top;
+    background-color: #0f0263;
+    color: white;
+    font-weight: bold;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #0000ff 1px solid;
+    border-bottom: #000000 1px solid;
+    font-size: small;
+    text-align: left;
+    padding-bottom: 8px;
+  }
+
+  .FldDatOdd {
+    vertical-align: top;
+    background-color: white;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+  }
+
+  .FldDatIsDeprOdd {
+    vertical-align: top;
+    background-color: fff4d4 /* Light Bisque */
+  ;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+  }
+
+  .FldDeprCustomFieldEven {
+    vertical-align: top;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+    background-color: yellow;
+  }
+
+
+  .FldDeprCustomFieldOdd {
+    vertical-align: top;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+    background-color: yellow;
+  }
+
+
+  .FldDeprEven {
+    vertical-align: top;
+    background-color: gainsboro;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+  }
+
+  .FldDeprIsDeprEven {
+    vertical-align: top;
+    background-color: ffe4c4 /* Bisque */
+  ;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+  }
+
+  .FldDeprOdd {
+    vertical-align: top;
+    background-color: white;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+  }
+
+  .FldDeprIsDeprOdd {
+    vertical-align: top;
+    background-color: fff4d4 /* Light Bisque */
+  ;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+  }
+
+  .FldEnumCustomFieldEven {
+    vertical-align: top;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+    background-color: yellow;
+  }
+
+
+  .FldEnumCustomFieldOdd {
+    vertical-align: top;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+    background-color: yellow;
+  }
+
+
+  .FldEnumEven {
+    vertical-align: top;
+    background-color: gainsboro;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+  }
+
+  .FldEnumIsDeprEven {
+    vertical-align: top;
+    background-color: ffe4c4 /* Bisque */
+  ;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+  }
+
+  .FldEnumOdd {
+    vertical-align: top;
+    background-color: white;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+  }
+
+  .FldEnumIsDeprOdd {
+    vertical-align: top;
+    background-color: fff4d4 /* Light Bisque */
+  ;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+  }
+
+  .FldDes {
+    vertical-align: top;
+
+  }
+
+  .FldDesCustomField {
+    vertical-align: top;
+
+  }
+
+  .FldDesCustomFieldEven {
+    vertical-align: top;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+    background-color: yellow;
+  }
+
+  .FldDesCustomFieldOdd {
+    vertical-align: top;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+    background-color: yellow;
+  }
+
+  .FldDesEven {
+    vertical-align: top;
+    background-color: gainsboro;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+  }
+
+  .FldDesIsDeprEven {
+    vertical-align: top;
+    background-color: ffe4c4 /* Bisque */
+  ;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+  }
+
+  .FldDesHdr {
+    vertical-align: top;
+    background-color: #0f0263;
+    color: white;
+    font-weight: bold;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #0000ff 1px solid;
+    border-bottom: #000000 1px solid;
+    font-size: small;
+    text-align: left;
+    padding-bottom: 8px;
+  }
+
+  .FldDesOdd {
+    vertical-align: top;
+    background-color: white;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+  }
+
+  .FldDesIsDeprOdd {
+    vertical-align: top;
+    background-color: fff4d4 /* Light Bisque */
+  ;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+  }
+
+  .FldEnmHdr {
+    vertical-align: top;
+    background-color: #0f0263;
+    color: white;
+    font-weight: bold;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #0000ff 1px solid;
+    border-bottom: #000000 1px solid;
+    font-size: small;
+    text-align: left;
+    padding-bottom: 8px;
+  }
+
+  .FldEven {
+    vertical-align: top;
+    font-weight: normal;
+    font-size: x-small;
+    color: black;
+    background-color: gainsboro;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+  }
+
+  .FldName {
+    vertical-align: top;
+    word-wrap: break-word;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+    background-color: white;
+  }
+
+  .FldNameIsDeprOdd {
+    vertical-align: top;
+    word-wrap: break-word;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+    background-color: fff4d4 /* Light Bisque */
+  ;
+  }
+
+  .FldNameIsDeprEven {
+    vertical-align: top;
+    word-wrap: break-word;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+    background-color: ffe4c4 /* Bisque */
+  ;
+  }
+
+  .FldNameCustomField {
+    vertical-align: top;
+    word-wrap: break-word;
+
+  }
+
+  .FldNameCustomFieldEven {
+    vertical-align: top;
+    word-wrap: break-word;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+    background-color: yellow;
+  }
+
+  .FldNameCustomFieldOdd {
+    vertical-align: top;
+    word-wrap: break-word;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+    background-color: yellow;
+  }
+
+  .FldNameEven {
+    vertical-align: top;
+    word-wrap: break-word;
+    background-color: gainsboro;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+  }
+
+  .FldNameHdr {
+    vertical-align: top;
+    background-color: #0f0263;
+    color: white;
+    font-weight: bold;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #0000ff 1px solid;
+    border-bottom: #000000 1px solid;
+    font-size: small;
+    text-align: left;
+    padding-bottom: 8px;
+  }
+
+  .FldNameOdd {
+    vertical-align: top;
+    word-wrap: break-word;
+    background-color: white;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+  }
+
+  .FldOdd {
+    vertical-align: top;
+    word-wrap: break-word;
+    font-weight: normal;
+    font-size: x-small;
+    color: black;
+    background-color: white;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+  }
+
+  .FldTag {
+    vertical-align: top;
+    word-wrap: break-word;
+
+  }
+
+  .FldTagCustomField {
+    vertical-align: top;
+    word-wrap: break-word;
+
+  }
+
+  .FldTagCustomFieldEven {
+    vertical-align: top;
+    word-wrap: break-word;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+    background-color: yellow;
+  }
+
+  .FldTagCustomFieldOdd {
+    vertical-align: top;
+    word-wrap: break-word;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+    background-color: yellow;
+  }
+
+  .FldTagEven {
+    vertical-align: top;
+    word-wrap: break-word;
+    background-color: gainsboro;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+  }
+
+  .FldTagIsDeprEven {
+    vertical-align: top;
+    word-wrap: break-word;
+    background-color: ffe4c4 /* Bisque */
+  ;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+  }
+
+  .FldTagIsDeprOdd {
+    vertical-align: top;
+    word-wrap: break-word;
+    background-color: fff4d4 /* Light Bisque */
+  ;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+    font-weight: normal;
+  }
+
+  .FldTagHdr {
+    vertical-align: top;
+    word-wrap: break-word;
+    background-color: #0f0263;
+    color: white;
+    font-weight: bold;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #0000ff 1px solid;
+    border-bottom: #000000 1px solid;
+    font-size: small;
+    text-align: left;
+    padding-bottom: 8px;
+  }
+
+  .FldTagOdd {
+    vertical-align: top;
+    word-wrap: break-word;
+    background-color: white;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-width: 1px;
+    color: black;
+    font-size: x-small;
+  }
+
+  .Footer {
+
+  }
+
+  .Hdr {
+    background-color: #0f0263;
+    color: white;
+    font-weight: bold;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #0000ff 1px solid;
+    border-bottom: #000000 1px solid;
+    font-size: small;
+    text-align: left;
+    vertical-align: top;
+    padding-bottom: 8px;
+  }
+
+  .HeaderTable {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-width: 0;
+    position: relative;
+    margin-top: -1px;
+  }
+
+  .Horiz ul.Menu {
+    background: #FFFFFF none repeat scroll 0%;
+    float: right;
+    margin: 2px 5px 0pt 0pt;
+    padding: 0px;
+  }
+
+  .Horiz ul.Menu li {
+    display: inline;
+    margin: 0pt 0pt 0pt 10px;
+    padding: 0pt;
+  }
+
+  #copyright {
+    color: grey;
+  }
+
+  .InlineComponent {
+
+  }
+
+  .ListTable {
+    width: auto;
+    table-layout: auto;
+    border-width: 1px;
+    border-color: blue;
+    border: thin;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Menu {
+
+  }
+
+  .MessageTitle {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 3px;
+    margin-bottom: 8px;
+    font-size: medium;
+    text-align: justify;
+    font-family: Arial, Verdana, Helvetica;
+  }
+
+  .MessageTitleCustomMessage {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 8px;
+    margin-bottom: 3px;
+    font-size: medium;
+    text-align: justify;
+    font-family: Arial, Verdana, Helvetica;
+    background-color: yellow;
+  }
+
+  .MessageTitleCenter {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 8px;
+    margin-bottom: 3px;
+    font-size: medium;
+    text-align: center;
+    font-family: Arial, Verdana, Helvetica;
+  }
+
+  .MessageTitleCustomMessageCenter {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 8px;
+    margin-bottom: 3px;
+    font-size: medium;
+    text-align: center;
+    font-family: Arial, Verdana, Helvetica;
+  }
+
+  .MsgCmtContent {
+    width: 35%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+  }
+
+  .MsgCmtContentCustomComp {
+    width: 35%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: yellow;
+  }
+
+  .MsgCmtContentCustomCompRef {
+    width: 35%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: ffe4c4 /* Bisque */
+  ;
+  }
+
+  .MsgCmtContentCustomField {
+    width: 35%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: yellow;
+  }
+
+  .MsgCmtContentCustomFieldRef {
+    width: 35%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: ffe4c4 /* Bisque */
+  ;
+  }
+
+  .MsgCmtContentInlineComponent0 {
+    width: 35%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #f0f0f0;
+  }
+
+  .MsgCmtContentInlineComponent0CustomComp {
+    width: 35%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #EFEF00;
+  }
+
+  .MsgCmtContentInlineComponent0CustomCompRef {
+    width: 35%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: ffe4c4 /* Bisque */
+  ;
+  }
+
+  .MsgCmtContentInlineComponent0CustomField {
+    width: 35%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: Yellow;
+  }
+
+  .MsgCmtContentInlineComponent1 {
+    width: 35%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #e0e0e0;
+  }
+
+  .MsgCmtContentInlineComponent1CustomCompRef {
+    width: 35%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: dfc7ab /* 80% Bisque */
+  ;
+  }
+
+  .MsgCmtContentInlineComponent1CustomField {
+    width: 35%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #DFDF00;
+  }
+
+  .MsgCmtContentInlineComponent2 {
+    width: 35%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #d0d0d0;
+  }
+
+  .MsgCmtContentInlineComponent2CustomComp {
+    width: 35%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #c0c000;
+  }
+
+  .MsgCmtContentInlineComponent2CustomField {
+    width: 35%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #CFCF00;
+  }
+
+  .MsgCmtContentInlineComponent3 {
+    width: 35%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #c0c0c0;
+  }
+
+  .MsgCmtContentInlineComponent4 {
+    width: 35%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #b0b0b0;
+  }
+
+  .MsgCmtContentInlineComponent5 {
+    width: 35%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #a0a0a0;
+  }
+
+  .MsgCmtContentInlineComponent6 {
+    width: 35%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #909090;
+  }
+
+  .MsgCmtContentInlineComponent7 {
+    width: 35%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #808080;
+  }
+
+  .MsgCmtContentInlineComponent8 {
+    width: 35%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #707070;
+  }
+
+  .MsgCmtHdrContent {
+    width: 35%;
+    word-wrap: break-word;
+    background-color: #0f0263;
+    color: white;
+    font-weight: bold;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #0000ff 1px solid;
+    border-bottom: #000000 1px solid;
+    font-size: small;
+    text-align: left;
+    vertical-align: top;
+    padding-bottom: 8px;
+  }
+
+  .MsgDeprContent {
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #C0DCC0;
+  }
+
+  .MsgDeprContentCustomComp {
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: Yellow;
+  }
+
+  .MsgDeprContentCustomCompRef {
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: ffe4c4 /* Bisque */
+  ;
+  }
+
+  .MsgDeprContentCustomField {
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: Yellow;
+  }
+
+  .MsgDeprContentCustomFieldRef {
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: ffe4c4 /* Bisque */
+  ;
+  }
+
+  .MsgDeprContentInlineComponent0 {
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #B4CEB4;
+  }
+
+  .MsgDeprContentInlineComponent0CustomComp {
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #EFEF00;
+  }
+
+  .MsgDeprContentInlineComponent0CustomCompRef {
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: ffe4c4 /* Bisque */
+  ;
+  }
+
+  .MsgDeprContentInlineComponent0CustomField {
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+  }
+
+  .MsgDeprContentInlineComponent1 {
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #A8C0A8;
+  }
+
+  .MsgDeprContentInlineComponent1CustomCompRef {
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: dfc7ab /* 80% Bisque */
+  ;
+  }
+
+  .MsgDeprContentInlineComponent1CustomField {
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #DFDF00;
+  }
+
+  .MsgDeprContentInlineComponent2 {
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #9CB29C;
+  }
+
+  .MsgDeprContentInlineComponent2CustomField {
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #CFCF00;
+  }
+
+  .MsgDeprContentInlineComponent3 {
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #90A490;
+  }
+
+  .MsgDeprContentInlineComponent3CustomComp {
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #BFBF00;
+  }
+
+  .MsgDeprContentInlineComponent3CustomField {
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #BFBF00;
+  }
+
+  .MsgDeprContentInlineComponent4 {
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #849684;
+  }
+
+  .MsgDeprContentInlineComponent5 {
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #788878;
+  }
+
+  .MsgDeprContentInlineComponent6 {
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #6c7a6c;
+  }
+
+  .MsgDeprContentInlineComponent7 {
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #606c60;
+  }
+
+  .MsgDeprContentInlineComponent8 {
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #545e54;
+  }
+
+  .MsgDeprHdrContent {
+    width: 5%;
+    background-color: #0f0263;
+    color: white;
+    font-weight: bold;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #0000ff 1px solid;
+    border-bottom: #000000 1px solid;
+    font-size: small;
+    text-align: left;
+    vertical-align: top;
+    padding-bottom: 8px;
+  }
+
+  .MsgFldContent {
+    width: 25%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+  }
+
+  .MsgFldContent {
+    width: 25%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+  }
+
+  .MsgFldContentCustomComp {
+    width: 25%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: Yellow;
+  }
+
+  .MsgFldContentCustomCompRef {
+    width: 25%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: ffe4c4 /* Bisque */
+  ;
+  }
+
+  .MsgFldContentCustomField {
+    width: 25%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: Yellow;
+  }
+
+  .MsgFldContentCustomFieldRef {
+    width: 25%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: ffe4c4 /* Bisque */
+  ;
+  }
+
+  .MsgFldContentInlineComponent0 {
+    width: 25%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #f0f0f0;
+  }
+
+  .MsgFldContentInlineComponent0CustomComp {
+    width: 25%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #EFEF00;
+  }
+
+  .MsgFldContentInlineComponent0CustomCompRef {
+    width: 25%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: ffe4c4 /* Bisque */
+  ;
+  }
+
+  .MsgFldContentInlineComponent0CustomField {
+    width: 25%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+  }
+
+  .MsgFldContentInlineComponent1 {
+    width: 25%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #e0e0e0;
+  }
+
+  .MsgFldContentInlineComponent1CustomCompRef {
+    width: 25%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: dfc7ab /* 80% Bisque */
+  ;
+  }
+
+  .MsgFldContentInlineComponent1CustomField {
+    width: 25%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #DFDF00;
+  }
+
+  .MsgFldContentInlineComponent2 {
+    width: 25%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #d0d0d0;
+  }
+
+  .MsgFldContentInlineComponent2CustomField {
+    width: 25%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #CFCF00;
+  }
+
+  .MsgFldContentInlineComponent3 {
+    width: 25%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #c0c0c0;
+  }
+
+  .MsgFldContentInlineComponent3CustomComp {
+    width: 25%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #c0c000;
+  }
+
+  .MsgFldContentInlineComponent3CustomField {
+    width: 25%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #c0c000;
+  }
+
+  .MsgFldContentInlineComponent4 {
+    width: 25%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #b0b0b0;
+  }
+
+  .MsgFldContentInlineComponent5 {
+    width: 25%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #a0a0a0;
+  }
+
+  .MsgFldContentInlineComponent6 {
+    width: 25%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #909090;
+  }
+
+  .MsgFldContentInlineComponent7 {
+    width: 25%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #808080;
+  }
+
+  .MsgFldContentInlineComponent8 {
+    width: 25%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #707070;
+  }
+
+  .MsgFldHdrContent {
+    width: 25%;
+    word-wrap: break-word;
+    background-color: #0f0263;
+    color: white;
+    font-weight: bold;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #0000ff 1px solid;
+    border-bottom: #000000 1px solid;
+    font-size: small;
+    text-align: left;
+    vertical-align: top;
+    padding-bottom: 8px;
+  }
+
+  .MsgGE0Lines {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge0.gif);
+  }
+
+  .MsgGE0LinesCustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge0.gif);
+  }
+
+  .MsgGE0LinesCustomFieldRef {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge0.gif);
+  }
+
+  .MsgGE0LinesInlineComponent0 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge0.gif);
+    background-color: #f0f0f0;
+  }
+
+  .MsgGE0LinesInlineComponent0CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge0.gif);
+    background-color: #f0f0f0;
+  }
+
+  .MsgGE0LinesInlineComponent1 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge0.gif);
+    background-color: #e0e0e0;
+  }
+
+  .MsgGE0LinesInlineComponent1CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge0.gif);
+    background-color: #e0e0e0;
+  }
+
+  .MsgGE0LinesInlineComponent2 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge0.gif);
+    background-color: #d0d0d0;
+  }
+
+  .MsgGE0LinesInlineComponent2CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge0.gif);
+    background-color: #d0d0d0;
+  }
+
+  .MsgGE0LinesInlineComponent3 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge0.gif);
+    background-color: #c0c0c0;
+  }
+
+  .MsgGE0LinesInlineComponent3CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge0.gif);
+    background-color: #c0c0c0;
+  }
+
+  .MsgGE0LinesInlineComponent4 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge0.gif);
+    background-color: #b0b0b0;
+  }
+
+  .MsgGE0LinesInlineComponent4CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge0.gif);
+    background-color: #b0b0b0;
+  }
+
+  .MsgGE0LinesInlineComponent5 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge0.gif);
+    background-color: #a0a0a0;
+  }
+
+  .MsgGE0LinesInlineComponent5CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge0.gif);
+    background-color: #a0a0a0;
+  }
+
+  MsgGE0LinesInlineComponent6 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge0.gif);
+    background-color: #909090;
+  }
+
+  MsgGE0LinesInlineComponent7 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge0.gif);
+    background-color: #606060;
+  }
+
+  MsgGE0LinesInlineComponent8 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge0.gif);
+    background-color: #505050;
+  }
+
+  .MsgGE1Lines {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge1.gif);
+  }
+
+  .MsgGE1LinesInlineComponent0 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge1.gif);
+    background-color: #f0f0f0;
+    background-color: #f0f0f0;
+  }
+
+  .MsgGE1LinesInlineComponent0CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge1.gif);
+  }
+
+  .MsgGE1LinesInlineComponent1 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge1.gif);
+    background-color: #e0e0e0;
+  }
+
+  .MsgGE1LinesInlineComponent1CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge1.gif);
+    background-color: #e0e0e0;
+  }
+
+  .MsgGE1LinesInlineComponent2 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge1.gif);
+    background-color: #d0d0d0;
+  }
+
+  .MsgGE1LinesInlineComponent3 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge1.gif);
+    background-color: #c0c0c0;
+  }
+
+  .MsgGE1LinesInlineComponent4 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge1.gif);
+    background-color: #b0b0b0;
+  }
+
+  .MsgGE1LinesInlineComponent5 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge1.gif);
+    background-color: #a0a0a0;
+  }
+
+  .MsgGE1LinesInlineComponent6 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge1.gif);
+    background-color: #909090;
+  }
+
+  .MsgGE1LinesInlineComponent7 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge1.gif);
+    background-color: #606060;
+  }
+
+  .MsgGE1LinesInlineComponent8 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge1.gif);
+    background-color: #505050;
+  }
+
+  .MsgGE2LinesInlineComponent1 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge2.gif);
+    background-color: #e0e0e0;
+  }
+
+  .MsgGE2LinesInlineComponent1CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge2.gif);
+    background-color: #e0e0e0;
+  }
+
+  .MsgGE2LinesInlineComponent2 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge2.gif);
+    background-color: #d0d0d0;
+  }
+
+  .MsgGE2LinesInlineComponent2CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge2.gif);
+    background-color: #d0d0d0;
+  }
+
+  .MsgGE2LinesInlineComponent3 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge2.gif);
+    background-color: #c0c0c0;
+  }
+
+  .MsgGE2LinesInlineComponent3CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge2.gif);
+    background-color: #c0c0c0;
+  }
+
+  .MsgGE2LinesInlineComponent4 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge2.gif);
+    background-color: #b0b0b0;;
+  }
+
+  .MsgGE2LinesInlineComponent4CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge2.gif);
+    background-color: #b0b0b0;
+  }
+
+  .MsgGE2LinesInlineComponent5 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge2.gif);
+    background-color: #a0a0a0;
+  }
+
+  .MsgGE2LinesInlineComponent5CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge2.gif);
+    background-color: #a0a0a0;
+  }
+
+  .MsgGE2LinesInlineComponent6 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge2.gif);
+    background-color: #909090;
+  }
+
+  .MsgGE2LinesInlineComponent7 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge2.gif);
+    background-color: #606060;
+  }
+
+  .MsgGE2LinesInlineComponent8 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge2.gif);
+    background-color: #505050;
+  }
+
+  .MsgGE3LinesInlineComponent2 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge3.gif);
+    background-color: #d0d0d0;
+  }
+
+  .MsgGE3LinesInlineComponent3 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge3.gif);
+    background-color: #c0c0c0;
+  }
+
+  .MsgGE3LinesInlineComponent4 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge3.gif);
+    background-color: #b0b0b0;
+  }
+
+  .MsgGE3LinesInlineComponent5 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge3.gif);
+    background-color: #a0a0a0;
+  }
+
+  .MsgGE3LinesInlineComponent6 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge3.gif);
+    background-color: #909090;
+  }
+
+  .MsgGE3LinesInlineComponent7 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge3.gif);
+    background-color: #606060;
+  }
+
+  .MsgGE3LinesInlineComponent8 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge3.gif);
+    background-color: #505050;
+  }
+
+  .MsgGE4LinesInlineComponent5 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge4.gif);
+    background-color: #a0a0a0;
+  }
+
+  .MsgGE4LinesInlineComponent6 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge4.gif);
+    background-color: #909090;
+  }
+
+  .MsgGE4LinesInlineComponent7 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge4.gif);
+    background-color: #606060;
+  }
+
+  .MsgGE4LinesInlineComponent8 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge4.gif);
+    background-color: #505050;
+  }
+
+  .MsgGE5LinesInlineComponent6 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge5.gif);
+    background-color: #909090;
+  }
+
+  .MsgGE5LinesInlineComponent7 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge5.gif);
+    background-color: #606060;
+  }
+
+  .MsgGE5LinesInlineComponent8 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/ge5.gif);
+    background-color: #505050;
+  }
+
+  .MsgGS0Lines {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs0.gif);
+  }
+
+  .MsgGS0LinesCustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs0.gif);
+  }
+
+  .MsgGS0LinesCustomFieldRef {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs0.gif);
+  }
+
+  .MsgGS0LinesInlineComponent0 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs0.gif);
+    background-color: #f0f0f0;
+  }
+
+  .MsgGS0LinesInlineComponent0CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs0.gif);
+  }
+
+  .MsgGS0LinesInlineComponent1 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs0.gif);
+    background-color: #e0e0e0;
+  }
+
+  .MsgGS0LinesInlineComponent1CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs0.gif);
+    background-color: #e0e0e0;
+  }
+
+  .MsgGS0LinesInlineComponent2 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs0.gif);
+    background-color: #d0d0d0;
+  }
+
+  .MsgGS0LinesInlineComponent2CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs0.gif);
+    background-color: #d0d0d0;
+  }
+
+  .MsgGS0LinesInlineComponent3 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs0.gif);
+    background-color: #c0c0c0;
+  }
+
+  .MsgGS0LinesInlineComponent3CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs0.gif);
+    background-color: #c0c0c0;
+  }
+
+  .MsgGS0LinesInlineComponent4 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs0.gif);
+    background-color: #b0b0b0;
+  }
+
+  .MsgGS0LinesInlineComponent5 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs0.gif);
+    background-color: #a0a0a0;
+  }
+
+  .MsgGS0LinesInlineComponent6 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs0.gif);
+    background-color: #909090;
+  }
+
+  .MsgGS0LinesInlineComponent7 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs0.gif);
+    background-color: #808080;
+  }
+
+  .MsgGS0LinesInlineComponent8 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs0.gif);
+    background-color: #707070;
+  }
+
+  .MsgGS1Lines {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs1.gif);
+  }
+
+  .MsgGS1LinesInlineComponent0 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs1.gif);
+    background-color: #f0f0f0;
+  }
+
+  .MsgGS1LinesInlineComponent0CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs1.gif);
+    background-color: #f0f0f0;
+  }
+
+  .MsgGS1LinesInlineComponent1 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs1.gif);
+    background-color: #e0e0e0;
+  }
+
+  .MsgGS1LinesInlineComponent1CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs1.gif);
+    background-color: #e0e0e0;
+  }
+
+  .MsgGS1LinesInlineComponent2 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs1.gif);
+    background-color: #d0d0d0;
+  }
+
+  .MsgGS1LinesInlineComponent3 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs1.gif);
+    background-color: #c0c0c0;
+  }
+
+  .MsgGS1LinesInlineComponent4 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs1.gif);
+    background-color: #b0b0b0;
+  }
+
+  .MsgGS1LinesInlineComponent5 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs1.gif);
+    background-color: #a0a0a0;
+  }
+
+  .MsgGS1LinesInlineComponent6 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs1.gif);
+    background-color: #909090;
+  }
+
+  .MsgGS1LinesInlineComponent7 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs1.gif);
+    background-color: #606060;
+  }
+
+  .MsgGS1LinesInlineComponent8 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs1.gif);
+    background-color: #505050;
+  }
+
+  MsgGS2LinesInlineComponent0 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs2.gif);
+    background-color: #f0f0f0;
+  }
+
+  .MsgGS2LinesInlineComponent1 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs2.gif);
+    background-color: #e0e0e0;
+  }
+
+  .MsgGS2LinesInlineComponent1CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs2.gif);
+    background-color: #e0e0e0;
+  }
+
+  .MsgGS2LinesInlineComponent2 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs2.gif);
+    background-color: #d0d0d0;
+  }
+
+  .MsgGS2LinesInlineComponent2CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs2.gif);
+    background-color: #d0d0d0;
+  }
+
+  .MsgGS2LinesInlineComponent3 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs2.gif);
+    background-color: #c0c0c0;
+  }
+
+  .MsgGS2LinesInlineComponent3CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs2.gif);
+    background-color: #c0c0c0;
+  }
+
+  .MsgGS2LinesInlineComponent4 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs2.gif);
+    background-color: #b0b0b0;
+  }
+
+  .MsgGS2LinesInlineComponent5 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs2.gif);
+    background-color: #a0a0a0;
+  }
+
+  .MsgGS2LinesInlineComponent6 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs2.gif);
+    background-color: #909090;
+  }
+
+  .MsgGS2LinesInlineComponent7 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs2.gif);
+    background-color: #606060;
+  }
+
+  .MsgGS2LinesInlineComponent8 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs2.gif);
+    background-color: #505050;
+  }
+
+  .MsgGS3LinesInlineComponent3 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs3.gif);
+    background-color: #C0C0C0;
+  }
+
+  .MsgGS3LinesInlineComponent3CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs3.gif);
+    background-color: #C0C0C0;
+  }
+
+  .MsgGS3LinesInlineComponent4 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs3.gif);
+    background-color: #B0B0B0;
+  }
+
+  .MsgGS3LinesInlineComponent4CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs3.gif);
+    background-color: #B0B0B0;
+  }
+
+  .MsgGS3LinesInlineComponent5 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs3.gif);
+    background-color: #a0a0a0;
+  }
+
+  .MsgGS3LinesInlineComponent5CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs3.gif);
+    background-color: #a0a0a0;
+  }
+
+  .MsgGS3LinesInlineComponent6 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs3.gif);
+    background-color: #909090;
+  }
+
+  .MsgGS3LinesInlineComponent7 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs3.gif);
+    background-color: #606060;
+  }
+
+  .MsgGS3LinesInlineComponent8 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs3.gif);
+    background-color: #505050;
+  }
+
+  .MsgGS4LinesInlineComponent5 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs4.gif);
+    background-color: #a0a0a0;
+  }
+
+  .MsgGS4LinesInlineComponent6 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs4.gif);
+    background-color: #909090;
+  }
+
+  .MsgGS4LinesInlineComponent7 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs4.gif);
+    background-color: #606060;
+  }
+
+  .MsgGS4LinesInlineComponent8 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/gs4.gif);
+    background-color: #505050;
+  }
+
+  .MsgINDENT0Lines {
+    width: 3%;
+  }
+
+  .MsgINDENT0LinesCustomComp {
+    width: 3%;
+  }
+
+  .MsgINDENT0LinesCustomCompRef {
+    width: 3%;
+  }
+
+  .MsgINDENT0LinesCustomField {
+    width: 3%;
+  }
+
+  .MsgINDENT0LinesCustomFieldRef {
+    width: 3%;
+  }
+
+  .MsgINDENT0LinesInlineComponent0 {
+    width: 3%;
+    background-color: #f0f0f0;
+  }
+
+  .MsgINDENT0LinesInlineComponent0CustomComp {
+    width: 3%;
+    background-color: #f0f0f0;
+  }
+
+  .MsgINDENT0LinesInlineComponent1 {
+    width: 3%;
+    background-color: #e0e0e0;
+  }
+
+  .MsgINDENT0LinesInlineComponent2 {
+    width: 3%;
+    background-color: #d0d0d0;
+  }
+
+  .MsgINDENT0LinesInlineComponent3 {
+    width: 3%;
+    background-color: #c0c0c0;
+  }
+
+  .MsgINDENT0LinesInlineComponent4 {
+    width: 3%;
+    background-color: #b0b0b0;
+  }
+
+  .MsgINDENT0LinesInlineComponent5 {
+    width: 3%;
+    background-color: #a0a0a0;
+  }
+
+  .MsgINDENT0LinesInlineComponent6 {
+    width: 3%;
+    background-color: #909090;
+  }
+
+  .MsgINDENT0LinesInlineComponent7 {
+    width: 3%;
+    background-color: #606060;
+  }
+
+  .MsgINDENT0LinesInlineComponent8 {
+    width: 3%;
+    background-color: #505050;
+  }
+
+  .MsgINDENT1Lines {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent1.gif);
+  }
+
+  .MsgINDENT1LinesCustomComp {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent1.gif);
+  }
+
+  .MsgINDENT1LinesCustomCompRef {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent1.gif);
+  }
+
+  .MsgINDENT1LinesCustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent1.gif);
+  }
+
+  .MsgINDENT1LinesCustomFieldRef {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent1.gif);
+  }
+
+  .MsgINDENT1LinesInlineComponent0 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent1.gif);
+    background-color: #f0f0f0;
+  }
+
+  .MsgINDENT1LinesInlineComponent0CustomComp {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent1.gif);
+    background-color: #f0f0f0;
+  }
+
+  .MsgINDENT1LinesInlineComponent0CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent1.gif);
+    background-color: #f0f0f0;
+  }
+
+  .MsgINDENT1LinesInlineComponent1 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent1.gif);
+    background-color: #e0e0e0;
+  }
+
+  .MsgINDENT1LinesInlineComponent1CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent1.gif);
+    background-color: #e0e0e0;
+  }
+
+  .MsgINDENT1LinesInlineComponent2 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent1.gif);
+    background-color: #d0d0d0;
+  }
+
+  .MsgINDENT1LinesInlineComponent3 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent1.gif);
+    background-color: #c0c0c0;
+  }
+
+  .MsgINDENT1LinesInlineComponent4 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent1.gif);
+    background-color: #b0b0b0;
+  }
+
+  .MsgINDENT1LinesInlineComponent5 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent1.gif);
+    background-color: #a0a0a0;
+  }
+
+  .MsgINDENT1LinesInlineComponent6 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent1.gif);
+    background-color: #909090;
+  }
+
+  .MsgINDENT1LinesInlineComponent7 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent1.gif);
+    background-color: #606060;
+  }
+
+  .MsgINDENT1LinesInlineComponent8 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent1.gif);
+    background-color: #505050;
+  }
+
+  .MsgINDENT2Lines {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent2.gif);
+  }
+
+  .MsgINDENT2LinesInlineComponent0 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent2.gif);
+    background-color: #f0f0f0;
+  }
+
+  .MsgINDENT2LinesInlineComponent0CustomCompRef {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent2.gif);
+    background-color: #f0f0f0;
+  }
+
+  .MsgINDENT2LinesInlineComponent0CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent2.gif);
+    background-color: #f0f0f0;
+  }
+
+  .MsgINDENT2LinesInlineComponent1 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent2.gif);
+    background-color: #e0e0e0;
+  }
+
+  .MsgINDENT2LinesInlineComponent2 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent2.gif);
+    background-color: #d0d0d0;
+  }
+
+  .MsgINDENT2LinesInlineComponent3 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent2.gif);
+    background-color: #c0c0c0;
+  }
+
+  .MsgINDENT2LinesInlineComponent4 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent2.gif);
+    background-color: #b0b0b0;
+  }
+
+  .MsgINDENT2LinesInlineComponent5 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent2.gif);
+    background-color: #a0a0a0;
+  }
+
+  .MsgINDENT2LinesInlineComponent6 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent2.gif);
+    background-color: #909090;
+  }
+
+  .MsgINDENT2LinesInlineComponent7 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent2.gif);
+    background-color: #606060;
+  }
+
+  .MsgINDENT2LinesInlineComponent8 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent2.gif);
+    background-color: #505050;
+  }
+
+  .MsgINDENT3LinesInlineComponent1 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent3.gif);
+    background-color: #e0e0e0;
+  }
+
+  .MsgINDENT2LinesInlineComponent1CustomCompRef {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent2.gif);
+    background-color: #e0e0e0;
+  }
+
+  .MsgINDENT3LinesInlineComponent1CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent3.gif);
+    background-color: #e0e0e0;
+  }
+
+  .MsgINDENT3LinesInlineComponent2 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent3.gif);
+    background-color: #d0d0d0;
+  }
+
+  .MsgINDENT3LinesInlineComponent2CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent3.gif);
+    background-color: #d0d0d0;
+  }
+
+  .MsgINDENT3LinesInlineComponent3 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent3.gif);
+    background-color: #c0c0c0;
+  }
+
+  .MsgINDENT3LinesInlineComponent3CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent3.gif);
+    background-color: #c0c0c0;
+  }
+
+  .MsgINDENT3LinesInlineComponent4 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent3.gif);
+    background-color: #b0b0b0;
+  }
+
+  .MsgINDENT3LinesInlineComponent5 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent3.gif);
+    background-color: #a0a0a0;
+  }
+
+  .MsgINDENT3LinesInlineComponent6 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent3.gif);
+    background-color: #909090;
+  }
+
+  .MsgINDENT3LinesInlineComponent7 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent3.gif);
+    background-color: #606060;
+  }
+
+  .MsgINDENT3LinesInlineComponent8 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent3.gif);
+    background-color: #505050;
+  }
+
+  .MsgINDENT4LinesInlineComponent3 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent4.gif);
+    background-color: #c0c0c0;
+  }
+
+  .MsgINDENT4LinesInlineComponent3CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent4.gif);
+    background-color: #c0c0c0;
+  }
+
+  .MsgINDENT4LinesInlineComponent4 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent4.gif);
+    background-color: #B0B0B0;
+  }
+
+  .MsgINDENT4LinesInlineComponent4CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent4.gif);
+    background-color: #B0B0B0;
+  }
+
+  .MsgINDENT4LinesInlineComponent5 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent4.gif);
+    background-color: #a0a0a0;
+  }
+
+  .MsgINDENT4LinesInlineComponent5CustomField {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent4.gif);
+    background-color: #a0a0a0;
+  }
+
+  .MsgINDENT4LinesInlineComponent6 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent4.gif);
+    background-color: #909090;
+  }
+
+  .MsgINDENT4LinesInlineComponent7 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent4.gif);
+    background-color: #606060;
+  }
+
+  .MsgINDENT4LinesInlineComponent8 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent4.gif);
+    background-color: #505050;
+  }
+
+  .MsgINDENT5LinesInlineComponent5 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent4.gif);
+    background-color: #a0a0a0;
+  }
+
+  .MsgINDENT5LinesInlineComponent6 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent4.gif);
+    background-color: #909090;
+  }
+
+  .MsgINDENT5LinesInlineComponent7 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent4.gif);
+    background-color: #606060;
+  }
+
+  .MsgINDENT5LinesInlineComponent8 {
+    width: 3%;
+    background-image: url(../../../../assets/icon/indent4.gif);
+    background-color: #505050;
+  }
+
+  .MsgRqdContent {
+    text-align: center;
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #C0DCC0;
+  }
+
+  .MsgRqdContentCustomComp {
+    text-align: center;
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: Yellow;
+  }
+
+  .MsgRqdContentCustomCompRef {
+    text-align: center;
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: ffe4c4 /* Bisque */
+  ;
+  }
+
+  .MsgRqdContentCustomField {
+    text-align: center;
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: Yellow;
+  }
+
+  .MsgRqdContentCustomFieldInlineComponent0 {
+    text-align: center;
+    width: 5%;
+  }
+
+  .MsgRqdContentCustomFieldRef {
+    text-align: center;
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: ffe4c4 /* Bisque */
+  ;
+  }
+
+  .MsgRqdContentInlineComponent0 {
+    text-align: center;
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #B4CEB4;
+  }
+
+  .MsgRqdContentInlineComponent0CustomComp {
+    text-align: center;
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #EFEF00;
+  }
+
+  .MsgRqdContentInlineComponent0CustomCompRef {
+    text-align: center;
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: ffe4c4 /* Bisque */
+  ;
+  }
+
+  .MsgRqdContentInlineComponent0CustomField {
+    text-align: center;
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+  }
+
+  .MsgRqdContentInlineComponent1 {
+    text-align: center;
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #A8C0A8;
+  }
+
+  .MsgRqdContentInlineComponent1CustomCompRef {
+    text-align: center;
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: dfc7ab /* 80% Bisque */
+  ;
+  }
+
+  .MsgRqdContentInlineComponent1CustomField {
+    text-align: center;
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #DFDF00;
+  }
+
+  .MsgRqdContentInlineComponent2 {
+    text-align: center;
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #9CB29C;
+  }
+
+  .MsgRqdContentInlineComponent2CustomField {
+    text-align: center;
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #CFCF00;
+  }
+
+  .MsgRqdContentInlineComponent3 {
+    text-align: center;
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #90A490; /* 75% green */
+  }
+
+  .MsgRqdContentInlineComponent3CustomComp {
+    text-align: center;
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #C0C000;
+  }
+
+  .MsgRqdContentInlineComponent3CustomField {
+    text-align: center;
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #C0C000;
+  }
+
+  .MsgRqdContentInlineComponent4 {
+    text-align: center;
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #849684;
+  }
+
+
+  .MsgRqdContentInlineComponent5 {
+    text-align: center;
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #788878;
+  }
+
+  .MsgRqdContentInlineComponent6 {
+    text-align: center;
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #6c7a6c;
+  }
+
+  .MsgRqdContentInlineComponent7 {
+    text-align: center;
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #606c60;
+  }
+
+  .MsgRqdContentInlineComponent8 {
+    text-align: center;
+    width: 5%;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #545e54;
+  }
+
+  .MsgRqdHdrContent {
+    text-align: center;
+    width: 5%;
+    background-color: #0f0263;
+    color: white;
+    font-weight: bold;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #0000ff 1px solid;
+    border-bottom: #000000 1px solid;
+    font-size: small;
+    vertical-align: top;
+    padding-bottom: 8px;
+  }
+
+  .MsgTagContent {
+    width: 13%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #C0DCC0;
+  }
+
+  .MsgTagContentCustomComp {
+    width: 10%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: Yellow;
+  }
+
+  .MsgTagContentCustomCompRef {
+    width: 10%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: ffe4c4 /* Bisque */
+  ;
+  }
+
+  .MsgTagContentCustomField {
+    width: 10%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: Yellow;
+  }
+
+  .MsgTagContentCustomFieldRef {
+    width: 10%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: ffe4c4 /* Bisque */
+  ;
+  }
+
+  .MsgTagContentInlineComponent0 {
+    width: 10%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #b4ceb4;
+  }
+
+  .MsgTagContentInlineComponent0CustomComp {
+    width: 10%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #EFEF00;
+  }
+
+  .MsgTagContentInlineComponent0CustomCompRef {
+    width: 10%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: ffe4c4 /* Bisque */
+  ;
+  }
+
+  .MsgTagContentInlineComponent0CustomField {
+    width: 10%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+  }
+
+  .MsgTagContentInlineComponent1 {
+    width: 10%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #a8c0a8;
+  }
+
+  .MsgTagContentInlineComponent1CustomCompRef {
+    width: 10%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: dfc7ab /* 80% Bisque */
+  ;
+  }
+
+  .MsgTagContentInlineComponent1CustomField {
+    width: 10%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #DFDF00;
+  }
+
+  .MsgTagContentInlineComponent2 {
+    width: 10%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #9cb29c;
+  }
+
+  .MsgTagContentInlineComponent2CustomField {
+    width: 10%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #9CB39C;
+  }
+
+  .MsgTagContentInlineComponent3 {
+    width: 10%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #90a490;
+  }
+
+  .MsgTagContentInlineComponent3CustomField {
+    width: 10%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #BFBF00;
+  }
+
+  .MsgTagContentInlineComponent4 {
+    width: 10%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #849684;
+  }
+
+  .MsgTagContentInlineComponent4CustomField {
+    width: 10%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #BFBF00;
+  }
+
+  .MsgTagContentInlineComponent5 {
+    width: 10%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #788878;
+  }
+
+  .MsgTagContentInlineComponent5CustomField {
+    width: 10%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #BFBF00;
+  }
+
+  .MsgTagContentInlineComponent6 {
+    width: 10%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #6c7a6c;
+  }
+
+  .MsgTagContentInlineComponent7 {
+    width: 10%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #606c60;
+  }
+
+  .MsgTagContentInlineComponent8 {
+    width: 10%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #545e54;
+  }
+
+  .MsgTagHdrContent {
+    width: 13%;
+    word-wrap: break-word;
+    background-color: #0f0263;
+    color: white;
+    font-weight: bold;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #0000ff 1px solid;
+    border-bottom: #000000 1px solid;
+    font-size: small;
+    text-align: left;
+    vertical-align: top;
+    padding-bottom: 8px;
+  }
+
+  .MsgXMLnameContent {
+    width: 15%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+  }
+
+  .MsgXMLnameContentInlineComponent0 {
+    width: 15%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #F0F0F0;
+  }
+
+  .MsgXMLnameContentInlineComponent1 {
+    width: 15%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #E0E0E0;
+  }
+
+  .MsgXMLnameContentInlineComponent2 {
+    width: 15%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #D0D0D0;
+  }
+
+  .MsgXMLnameContentInlineComponent3 {
+    width: 15%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #C0C0C0;
+  }
+
+  .MsgXMLnameContentInlineComponent4 {
+    width: 15%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #B0B0B0;
+  }
+
+  .MsgXMLnameContentInlineComponent5 {
+    width: 15%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #a0a0a0;
+  }
+
+  .MsgXMLnameContentInlineComponent6 {
+    width: 15%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #909090;
+  }
+
+  .MsgXMLnameContentInlineComponent7 {
+    width: 15%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #808080;
+  }
+
+  .MsgXMLnameContentInlineComponent8 {
+    width: 15%;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+    background-color: #707070;
+  }
+
+  .MsgXMLnameHdrContent {
+    width: 15%;
+    word-wrap: break-word;
+    color: white;
+    font-weight: bold;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #0000ff 1px solid;
+    border-bottom: #000000 1px solid;
+    font-size: small;
+    text-align: left;
+    vertical-align: top;
+    padding-bottom: 8px;
+    background-color: #0f0263;
+  }
+
+  .NavHeading {
+    font-weight: bold;
+    font-size: x-small;
+    color: black;
+    text-align: center;
+    width: 100%;
+    border-top: #000000 2px solid;
+    border-bottom: #000000 2px solid;
+    background-color: #d0d0d0;
+  }
+
+  .NavRow {
+    /*	font-weight: normal;
+      font-size: x-small;
+        */
+    color: black;
+    list-style-type: none;
+    text-align: left;
+    width: 100%;
+    border-bottom: thin;
+    border-top: #000000 1px solid;
+    background-color: #f0f0f0;
+  }
+
+  /*
+  .Odd {
+    font-size: x-small;
+    color: black;
+    background-color: white;
+    border-width: 1px;
+    border-top: #000000 1px solid;
+    border-left: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+  }
+  */
+
+  td.Navrow ul.Section {
+    margin-left: 5px;
+    padding-left: 5px;
+  }
+
+  td.Navrow ul.Section li {
+    list-style-type: none;
+    margin-left: 5px;
+    padding-left: 5px;
+    margin-top: 10px;
+  }
+
+  td.Navrow ul.category {
+    margin-left: 10px;
+    padding-left: 10px;
+  }
+
+  td.Navrow ul.section li {
+    list-style-type: none;
+    margin-left: 5px;
+    padding-left: 5px;
+    margin-top: 10px;
+  }
+
+  td.Navrow ul.category li {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+  }
+
+  .TagUsedIn {
+
+  }
+
+
+  .TopFrame {
+    //background-image: url(../../../../assets/icon/new_plus_top_logo.jpg);
+    height: 100px;
+  }
+
+  TR.IsDepr A {
+    font-style: italic;
+    color: #8b4513;
+    font-weight: normal;
+    font-size: x-small;
+  }
+
+  A {
+    color: #0f0263;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: x-small;
+  }
+
+  .Navrow A:hover {
+    background-color: #D8D8D8;
+    display: block;
+    width: 100%;
+  }
+
+  .Navrow A:link {
+    display: block;
+    width: 100%;
+  }
+
+  TABLE.BodyTable A:hover {
+    background-color: #0F0263;
+    color: white;
+  }
+
+  A:link {
+  }
+
+  A:visited {
+  }
+
+  A:hover {
+  }
+
+  BODY {
+    font-family: sans-serif;
+    font-size: small;
+  }
+
+  H1 {
+    margin-top: 3px;
+    margin-bottom: 2px;
+    font-family: Verdana;
+    font-size: large;
+  }
+
+  H2 {
+    font-weight: normal;
+    font-size: large;
+    text-align: center;
+    color: #000000;
+  }
+
+  H3 {
+    FONT-SIZE: medium;
+    TEXT-ALIGN: center;
+    color: #000000;
+  }
+
+  P {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: x-small;
+  }
+
+  TABLE {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  TD {
+    font-family: Verdana;
+    font-size: x-small;
+  }
+
+  TD.center {
+    text-align: center;
+  }
+
+  TR.IsDepr TD {
+    font-style: italic;
+    color: #8b4513;
+  }
+
+
+}

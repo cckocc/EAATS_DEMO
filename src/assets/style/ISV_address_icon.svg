@@ -1,0 +1,32 @@
+<svg id="ISV_address_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        opacity: 0.687;
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: #9bd5ff;
+      }
+
+      .cls-4 {
+        fill: #0050b3;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.275"/>
+      <stop offset="1" stop-color="#22a2ff" stop-opacity="0.584"/>
+    </linearGradient>
+  </defs>
+  <path id="路径_574" data-name="路径 574" class="cls-1" d="M0,0H16V16H0Z"/>
+  <g id="map-pin-fill" transform="translate(100.463 530.014)">
+    <ellipse id="椭圆_288" data-name="椭圆 288" class="cls-2" cx="8" cy="2.5" rx="8" ry="2.5" transform="translate(-100.463 -519.014)"/>
+    <ellipse id="椭圆_289" data-name="椭圆 289" class="cls-3" cx="4" cy="1" rx="4" ry="1" transform="translate(-96.463 -518.014)"/>
+    <path id="路径_585" data-name="路径 585" class="cls-4" d="M11.224,10.225,7.818,13.631,4.411,10.225a4.818,4.818,0,1,1,6.813,0ZM7.818,8.959A2.141,2.141,0,1,0,5.677,6.818,2.141,2.141,0,0,0,7.818,8.959Zm0-1.071A1.071,1.071,0,1,1,8.888,6.818,1.071,1.071,0,0,1,7.818,7.889Z" transform="translate(-100.118 -531.787)"/>
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="287.002" height="144" viewBox="0 0 287.002 144">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        opacity: 0.323;
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: #01ecfe;
+        opacity: 0.221;
+      }
+
+      .cls-4 {
+        fill: rgba(1,236,254,0.2);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-0.243" y1="0.156" x2="0.966" y2="0.736" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#01a6fe"/>
+      <stop offset="1" stop-color="#0176fe"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="0.302" x2="1.092" y2="1.891" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#01dbfe" stop-opacity="0.694"/>
+      <stop offset="1" stop-color="gray" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="ysrygl_bg" transform="translate(-323.998 -274)">
+    <path id="路径_347" data-name="路径 347" class="cls-1" d="M15.3,0H271.634c8.452,0,15.3,9.37,15.3,20.929L287,144c.416-.7-287.292-.769-286.938,0L0,20.929C0,9.37,6.851,0,15.3,0Z" transform="translate(324 274)"/>
+    <path id="路径_356" data-name="路径 356" class="cls-2" d="M-1984,14760.1c0-10.548,9.055-19.1,20.224-19.1s20.224,8.555,20.224,19.1-9.055,19.1-20.224,19.1S-1984,14770.648-1984,14760.1Z" transform="translate(2520.087 -14383.84)"/>
+    <path id="路径_373" data-name="路径 373" class="cls-3" d="M4540.88,14670.547c-14.213-2.243-25.268.267-33.644,4.486v-67.088c2.24-7.018,7.524-11.948,13.688-11.948H4769.4c8.194,0,14.834,8.713,14.834,19.46v68.675c-7.755-4.645-16.656-12.392-26.791-24.493-51.324-61.278-81.106-11.156-81.106-11.156s-17.558,43.781-51.181,48.207a60.185,60.185,0,0,1-7.923.537C4589.67,14697.227,4578.194,14676.436,4540.88,14670.547Z" transform="translate(-4178.349 -14315.998)"/>
+    <path id="路径_375" data-name="路径 375" class="cls-4" d="M4506.058,14732.538l-.06-115.554c0-11.59,6.84-20.982,15.272-20.982h255.811c5.438,0,10.211,3.905,12.917,9.786-9.221,12.745-22.479,28-41.317,44.213-50.318,43.313-82.458,12.444-107.242,8.072s-42.15,6.618-68.9,46.489c-16.013,23.868-39.516,28.655-55.808,28.655A83.843,83.843,0,0,1,4506.058,14732.538Z" transform="translate(-4182 -14322)"/>
+  </g>
+</svg>

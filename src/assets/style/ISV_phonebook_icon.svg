@@ -1,0 +1,20 @@
+<svg id="ISV_phonebook_icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #0050b3;
+      }
+
+      .cls-3 {
+        fill: #22a2ff;
+      }
+    </style>
+  </defs>
+  <path id="路径_574" data-name="路径 574" class="cls-1" d="M0,0H16V16H0Z"/>
+  <path id="路径_587" data-name="路径 587" class="cls-2" d="M5.667,2V15.333H3V2ZM7,2h6.67A1.331,1.331,0,0,1,15,3.327v10.68a1.328,1.328,0,0,1-1.33,1.327H7Zm4,6.667A1.333,1.333,0,1,0,9.667,7.333,1.333,1.333,0,0,0,11,8.667ZM9,11.333h4a2,2,0,0,0-4,0Z" transform="translate(-2 -0.667)"/>
+  <path id="路径_588" data-name="路径 588" class="cls-3" d="M15.667,4.667H17V7.333H15.667Zm0,4H17v2.667H15.667Z" transform="translate(-2 -0.666)"/>
+</svg>

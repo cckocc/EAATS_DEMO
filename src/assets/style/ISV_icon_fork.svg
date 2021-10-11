@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: #f56c6c;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.87" y1="0.5" x2="0" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#ffd3d3"/>
+    </linearGradient>
+  </defs>
+  <g id="ISV_icon_fork" transform="translate(-1304 -304)">
+    <rect id="矩形_2853" data-name="矩形 2853" class="cls-1" width="24" height="24" transform="translate(1304 304)"/>
+    <circle id="椭圆_287" data-name="椭圆 287" class="cls-2" cx="7.5" cy="7.5" r="7.5" transform="translate(1306 309)"/>
+    <path id="叉叉" class="cls-3" d="M2.607,0,1.542.9A42.5,42.5,0,0,1,6.756,5.558c-2.376,2.4-4.24,4.753-5.22,5.7l2.026,1.695a30.424,30.424,0,0,1,4.383-6.1,30.721,30.721,0,0,1,4.389,6.136s1.974-2.1,2.149-1.773c-.76-.857-2.617-3.35-5.11-5.9a40.6,40.6,0,0,1,4.746-4.2L13.652.24A24.548,24.548,0,0,0,8.2,4.168,25.956,25.956,0,0,0,2.607,0Z" transform="translate(1309.616 310.007)"/>
+  </g>
+</svg>

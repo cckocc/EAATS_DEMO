@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #333;
+      }
+    </style>
+  </defs>
+  <g id="zyxz_icon_back_n" transform="translate(-884 -557.999)">
+    <rect id="矩形_2522" data-name="矩形 2522" class="cls-1" width="16" height="16" transform="translate(884 557.999)"/>
+    <path id="路径_343" data-name="路径 343" class="cls-2" d="M6.8,5.8V9L2,5,6.8,1V4.2h4a6.4,6.4,0,1,1,0,12.8H3.6V15.4h7.2a4.8,4.8,0,0,0,0-9.6Z" transform="translate(882 556.999)"/>
+  </g>
+</svg>

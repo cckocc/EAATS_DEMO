@@ -1,0 +1,15 @@
+<svg id="ysyy_arrow_left_s" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #0050b3;
+      }
+    </style>
+  </defs>
+  <path id="路径_334" data-name="路径 334" class="cls-1" d="M0,0H24V24H0Z"/>
+  <path id="路径_335" data-name="路径 335" class="cls-2" d="M10.828,12l4.95,4.95-1.414,1.414L8,12l6.364-6.364L15.778,7.05Z"/>
+</svg>

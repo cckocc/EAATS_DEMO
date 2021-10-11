@@ -1,0 +1,15 @@
+<svg id="yylpfcx_switch_off" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #b4c1d1;
+      }
+    </style>
+  </defs>
+  <path id="路径_358" data-name="路径 358" class="cls-1" d="M24,0H0V24H24Z"/>
+  <path id="减去_3" data-name="减去 3" class="cls-2" d="M15,0H7A7,7,0,1,0,7,14h8A7,7,0,1,0,15,0Zm0,12a5,5,0,1,1,5-5A5,5,0,0,1,15,12Z" transform="translate(23.001 19) rotate(180)"/>
+</svg>
